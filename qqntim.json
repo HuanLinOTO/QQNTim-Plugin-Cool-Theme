@@ -1,0 +1,14 @@
+{
+    "id": "cool-theme",
+    "name": "Cool 主题",
+    "author": "HuanLinOTO",
+    "manifestVersion": "3.0",
+    "injections": [
+        {
+            "type": "renderer",
+            "page": ["main", "chat"],
+            "script": "renderer.js",
+            "stylesheet": "style.css"
+        }
+    ]
+}

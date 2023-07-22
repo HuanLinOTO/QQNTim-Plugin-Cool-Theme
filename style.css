@@ -1,0 +1,31 @@
+#app > div.container > div.tab-container {
+    background: #ffffffb5;
+}
+
+/* 左一侧栏 */
+#app > div.container > div.draggable-view__container.sidebar {
+    backdrop-filter: blur(40px);
+    background-color: #f2f2f290 !important
+}
+
+#app > div.container > div.tab-container > div > div.recent-contact {   
+    /* backdrop-filter: blur(9px); */
+    background-color: #00000000 !important
+}
+#app > div.container > div.tab-container > div > div.recent-contact > div.list-toggler > div > div.viewport-list > div.viewport-list__inner {
+    backdrop-filter: blur(9px);
+    background-color: #00000000 !important
+}
+
+.list-item--selected {
+    border-radius: 11px;
+    --brand_standard: rgba(0, 153, 255, 0.418);
+    --global-brand_standard: rgba(0, 153, 255, 0.418)
+}
+
+#app > div.container > div.tab-container > div > div.aio > div.group-panel.need-token-updated > div.group-box__wrapper > div.group-box > div.group-notice > div.content {
+    color: black;
+}
+.group-user__name {
+    color: black !important;
+}
